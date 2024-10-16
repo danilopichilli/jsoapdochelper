@@ -22,8 +22,7 @@ public class GetSomethingEndpoint {
             requestType = GetSomething.class,
             responseType = GetSomethingResponse.class,
             version = "1.1",
-            rolesAllowed = {"admin", "user"},
-            printInfo = true
+            rolesAllowed = {"admin", "user"}
     )
     public GetSomethingResponse getSomething(@RequestPayload GetSomething request) {
         GetSomethingResponse response = new GetSomethingResponse();

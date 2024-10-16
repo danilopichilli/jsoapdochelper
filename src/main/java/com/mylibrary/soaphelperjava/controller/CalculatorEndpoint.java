@@ -24,8 +24,7 @@ public class CalculatorEndpoint {
             requestType = AddRequest.class,
             responseType = AddResponse.class,
             version = "1.1",
-            rolesAllowed = {"admin", "user"},
-            printInfo = true
+            rolesAllowed = {"admin", "user"}
     )
     public AddResponse add(@RequestPayload AddRequest request) {
         AddResponse response = new AddResponse();
@@ -40,8 +39,7 @@ public class CalculatorEndpoint {
             requestType = SubtractRequest.class,
             responseType = SubtractResponse.class,
             version = "1.1",
-            rolesAllowed = {"admin", "user"},
-            printInfo = true
+            rolesAllowed = {"admin", "user"}
     )
     public SubtractResponse subtract(@RequestPayload SubtractRequest request) {
         SubtractResponse response = new SubtractResponse();
