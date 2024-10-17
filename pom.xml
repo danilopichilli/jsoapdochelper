@@ -92,7 +92,7 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>jsoapdoc.soaplib</groupId>
+			<groupId>io.github.jsoapdoc</groupId>
 			<artifactId>jsoapdoc</artifactId>
 			<version>0.0.1</version>
 		</dependency>

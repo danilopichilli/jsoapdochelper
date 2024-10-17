@@ -1,7 +1,7 @@
 package com.mylibrary.soaphelperjava.request;
 
 
-import com.jsoapdoc.soaplib.annotation.Required;
+import io.github.jsoapdoc.annotation.Required;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;

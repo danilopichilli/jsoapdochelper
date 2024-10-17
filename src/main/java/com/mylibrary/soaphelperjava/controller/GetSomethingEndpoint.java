@@ -1,9 +1,9 @@
 package com.mylibrary.soaphelperjava.controller;
 
-import com.jsoapdoc.soaplib.annotation.EndpointInfo;
-import com.jsoapdoc.soaplib.annotation.MethodDetails;
 import com.mylibrary.soaphelperjava.request.GetSomething;
 import com.mylibrary.soaphelperjava.response.GetSomethingResponse;
+import io.github.jsoapdoc.annotation.EndpointInfo;
+import io.github.jsoapdoc.annotation.MethodDetails;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
